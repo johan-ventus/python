@@ -1,2 +1,0 @@
-def johan():
-    return "jee"
