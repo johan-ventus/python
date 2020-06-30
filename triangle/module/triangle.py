@@ -34,3 +34,14 @@ def calculateSumAndDivisors(ordinal):
             terms.append(i)
     
     printToFile()
+
+def performUserAction(opt):
+    if opt == 1:
+        calculateSumAndDivisors(int(input('\nGimme the ordinal:\n')))
+
+    if opt == 2:
+        print("You Selected 2")
+        
+    if (opt != 1) and (opt != 2):
+        print('Illegal')
+        
