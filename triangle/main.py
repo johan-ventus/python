@@ -1,8 +1,8 @@
-from module import sumDivisors
+from module import mainOption
+from module import triangle
 
 def main():
-    ordinal = int(input('\nGimme the ordinal\n'))
-    sumDivisors.calculateSumAndDivisors(ordinal)
+    triangle.performUserAction(mainOption.userOption())
 
 if __name__ == "__main__":
     main()
